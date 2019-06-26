@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	margin-top: 500px;
+	margin-left: 80px;
+	background:url('../images/2.jpg') no-repeat center center fixed;
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 5);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+  	z-index: 5;
+	background-blend-mode: darken;
+	background-position: 50% 50%;
+}
+
+.onoffswitch {
+    position: relative; width: 200px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 33px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 50px; padding: 0; line-height: 46px;
+    font-size: 31px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: " Monthly";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Weekly";
+    padding-right: 10px;
+    background-color: #CBEE2B; color: #000000;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 60px; margin: 5.5px;
+    height: 43px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 130px;
+    border: 2px solid #999999; border-radius: 33px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+#switchDiv{
+	position: absolute;
+	right: 700px;
+	margin-top:10px;
+}
+
+

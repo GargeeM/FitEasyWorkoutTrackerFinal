@@ -1,0 +1,129 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    /* .row.content {height: 450px} */
+    
+    /* Set gray background color and 100% height */
+    /* .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    } */
+    
+    /* div.form-group{
+    text-align: center;
+  	margin: 0px auto;
+    } */
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: black;  /*  #555 earlier value   */
+      color: white;
+      padding: 15px;
+    }
+    
+    /* .form-inline{
+    text-align: center;
+  	margin: 0px auto;
+    } */
+
+    /*Set the fixed footer.*/
+    div.foot{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    /* label{
+    text-align: center;
+  	margin: 0px auto;
+    } */
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      /*.sidenav {
+        height: auto;
+        padding: 15px;
+      }*/
+      .row.content {height:auto;} 
+    }
+    
+      
+  /*#m1 {
+    border:0px;
+    background-color: grey;
+  }*/
+
+  #img{
+    background-image:url("../images/darkBackground.jpg");
+    height: 100%;
+    width: 100%;
+  }
+  
+  #containerBg{
+  background:transparent;
+  }
+  /*#id1{
+    text-decoration-color: white;
+  }*/
+  label{
+    color: white;
+  }
+  #id2{
+  	text-align: center;
+  	color: white;
+  	margin: 0px auto;
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+  }
+  #id3{
+  	text-align: center;
+  	margin: 0px auto;
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  #id4{
+    color: white;
+  }
+  #id5{
+    color: white;
+  }
+  #card1{
+  	height:50%;
+  	width: 100%;
+  	left: 0px;
+  	top: 0px;
+  	text-align: center;
+  	margin: 0px auto;
+  	/* border: 5px; */
+  }
+  #card2{
+  	height: 50%;
+  	width: 100%;
+  	left: 0px;
+  	top: 50%;
+  	text-align: center;
+  	margin: 0px auto;
+  }
+ /*  #height{
+  	align: center;
+  	margin: 0px auto;
+  }
+  #weight{
+  	align: center;
+  	margin: 0px auto;
+  }
+  #age{
+  	align: center;
+  	margin: 0px auto;
+  } */
+  #centralize{
+  	text-align: center;
+  	/* margin: 0px auto; */
+  }
